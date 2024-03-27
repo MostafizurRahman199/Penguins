@@ -5,7 +5,8 @@ import React from "react";
 export default function () {
   return (
     <nav className="bg-gray-800">
-      <div className="flex h-16 items-center justify-between">
+     <div className="mx-auto max-w-7xl px-2">
+     <div className="flex h-16 items-center justify-between">
         <div className="flex flex-shrink-0 items-center ">
           <Image
             src="/nav_logo4.png"
@@ -44,6 +45,7 @@ export default function () {
           </Link>
         </div>
       </div>
+     </div>
     </nav>
   );
 }
