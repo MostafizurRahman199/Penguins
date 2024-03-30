@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
+
 export default function MainSection() {
   return (
     <main className="bg-[url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1610046077249-XZ6VZ2POTIDIS6CZ2J5X/12.jpg')] h-screen bg-no-repeat bg-cover">
@@ -21,7 +22,7 @@ export default function MainSection() {
         <div className="mt-8 flex gap-x-4 justify-center">
           <Link
             href={"/"}
-            className="inline-block rounded-lg bg-cyan-400 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-2 ring-white"
+            className="inline-block rounded-lg bg-pink-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-2 ring-white"
           >
             Learn more
           </Link>
