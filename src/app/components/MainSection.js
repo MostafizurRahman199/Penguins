@@ -22,7 +22,7 @@ export default function MainSection() {
         <div className="mt-8 flex gap-x-4 justify-center">
           <Link
             href={"/"}
-            className="inline-block rounded-lg bg-pink-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-2 ring-white"
+            className="inline-block rounded-lg bg-pink-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-2 ring-white  hover:bg-cyan-400 transition duration-150 "
           >
             Learn more
           </Link>

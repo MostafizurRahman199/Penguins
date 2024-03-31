@@ -15,32 +15,32 @@ export default function () {
             height={80}
             className="block "
           ></Image>
-          <h1 className="text-white flex items-center px-2 text-2xl font-medium">
+          <h1 className="text-white flex items-center px-2 text-2xl font-medium  ">
             <Link href={"/"}>Penguins</Link>
           </h1>
         </div>
         <div className="flex space-x-4">
           <Link
             href={"/"}
-            className=" bg-pink-600 text-white px-3 py-2 rounded-md text-sm font-medium"
+            className=" bg-pink-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-cyan-400"
           >
             Home
           </Link>
           <Link
             href={"/"}
-            className=" bg-pink-500 text-white px-3 py-2 rounded-md text-sm font-medium"
+            className=" bg-pink-500 text-white px-3 py-2 rounded-md text-sm font-medium  hover:bg-cyan-400 transition duration-150 ease-in-out"
           >
             Testimonials
           </Link>
           <Link
             href={"/"}
-            className=" bg-pink-500 text-white px-3 py-2 rounded-md text-sm font-medium"
+            className=" bg-pink-500 text-white px-3 py-2 rounded-md text-sm font-medium  hover:bg-cyan-400  transition duration-150 ease-in-out"
           >
             Price
           </Link>
           <Link
             href={"/"}
-            className=" bg-pink-500 text-white px-3 py-2 rounded-md text-sm font-medium"
+            className=" bg-pink-500 text-white px-3 py-2 rounded-md text-sm font-medium  hover:bg-cyan-400 transition duration-150 ease-in-out"
           >
             Projects
           </Link>
