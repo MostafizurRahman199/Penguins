@@ -4,7 +4,7 @@ export default function EmailSubscribe() {
   return (
     <div>
       <form className="">
-        <div className="grid grid-cols-3 flex gap-4 justify-center items-center mb-4 mt-2 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex gap-4 justify-center items-center mb-4 mt-2">
           <div className="ml-auto  items-center">
             <p className="font-bold ">Sign up for news letter</p>
           </div>
