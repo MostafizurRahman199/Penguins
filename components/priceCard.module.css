@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .price_card_container {
+      display: flex;
+      justify-content: center;
+    }
+    .mb-6 {
+      margin-bottom: 20px; /* Adjust as needed */
+    }
+  }
